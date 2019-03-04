@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestController {
 
-    @GetMapping(path = "/name")
+    @GetMapping(path = "/ssl")
     public String getName() {
-        return "Vinayak Prabhu!";
+        return "It's Secured!";
     }
 
 }
